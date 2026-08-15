@@ -1,40 +1,17 @@
-classDiagram
-    class AgendaDeAniversarios {
-        <<interface>>
-        +adicionarAniversariante(nome: String, dia: int, mes: int) void
-        +obterAniversariantesDoDia(dia: int, mes: int) ArrayList~String~
-        +removerAniversariante(nome: String) void
-    }
+# 🎂 Agenda de Aniversários
 
-    class MinhaAgendaDeAniversarios {
-        -lista: ArrayList~Aniversariante~
-        +adicionarAniversariante(nome: String, dia: int, mes: int) void
-        +obterAniversariantesDoDia(dia: int, mes: int) ArrayList~String~
-        +removerAniversariante(nome: String) void
-    }
+Resolução da Lista de Exercícios 01 de POO (Programação Orientada a Objetos). Um sistema simples para gerenciar aniversariantes.
 
-    class Aniversariante {
-        -nome: String
-        -dataAniversario: DataAniversario
-        +Aniversariante(nome: String, dia: int, mes: int)
-        +Aniversariante(nome: String, data: DataAniversario)
-        +equals(obj: Object) boolean
-        +getNome() String
-        +getDataAniversario() DataAniversario
-    }
+## 🛠️ Tecnologias
 
-    class DataAniversario {
-        -dia: int
-        -mes: int
-        +DataAniversario(dia: int, mes: int)
-        +equals(obj: Object) boolean
-    }
+* Java
+* Maven
 
-    class Main {
-        +main(args: String[]) void
-    }
+## ⚙️ Funcionalidades
 
-    AgendaDeAniversarios <|.. MinhaAgendaDeAniversarios : implements
-    MinhaAgendaDeAniversarios *-- Aniversariante : contem
-    Aniversariante *-- DataAniversario : possui
-    Main ..> MinhaAgendaDeAniversarios : usa
+* **Adicionar** aniversariante (Nome, Dia, Mês).
+* **Buscar** aniversariantes por data.
+* **Remover** aniversariante pelo nome.
+
+
+<img width="4315" height="5030" alt="diagrama_ex1" src="https://github.com/user-attachments/assets/e501d0d3-e14d-4fc2-9fc2-78edef899cfc" />
