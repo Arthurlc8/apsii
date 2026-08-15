@@ -1,3 +1,4 @@
+```
 # 🎂 Agenda de Aniversários
 
 Resolução da Lista de Exercícios 01. Um sistema simples para gerenciar aniversariantes.
@@ -12,3 +13,4 @@ Resolução da Lista de Exercícios 01. Um sistema simples para gerenciar aniver
 * **Adicionar** aniversariante (Nome, Dia, Mês).
 * **Buscar** aniversariantes por data.
 * **Remover** aniversariante pelo nome.
+```
