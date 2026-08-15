@@ -14,4 +14,4 @@ Resolução da Lista de Exercícios 01 de POO (Programação Orientada a Objetos
 * **Remover** aniversariante pelo nome.
 
 
-<img width="4315" height="5030" alt="diagrama_ex1" src="https://github.com/user-attachments/assets/e501d0d3-e14d-4fc2-9fc2-78edef899cfc" />
+<img width="3000" height="4500" alt="diagrama_ex1" src="https://github.com/user-attachments/assets/e501d0d3-e14d-4fc2-9fc2-78edef899cfc" />
