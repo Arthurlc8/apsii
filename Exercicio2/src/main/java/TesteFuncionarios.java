@@ -10,9 +10,12 @@ public class TesteFuncionarios {
 
 		Estagiario f4 = new Estagiario("Diego Alves", "E001", 0.00, "05/08/2024", 1500.00, 20);
 
+		Diretor f5 = new Diretor("Roberto Silva", "D001", 15000.00, "10/01/2015", 500.00, 800.00, 50, 0.30, 20000.00);
+		
 		System.out.println(f1);
 		System.out.println(f2);
 		System.out.println(f3);
 		System.out.println(f4);
+		System.out.println(f5);
 	}
 }
