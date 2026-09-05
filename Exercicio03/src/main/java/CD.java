@@ -13,10 +13,10 @@ public class CD extends Produto implements InfoGerais{
 	
 	
 	@Override
-	public void exibirInfo() {
-		System.out.println("Informações do CD");
-		super.exibirInfo();
-		System.out.println("Número de faixas: " + numFaixas);
+	public void exibirInformacoes() {
+		System.out.println("\nInformações do CD\n");
+		super.exibirInformacoes();
+		System.out.println("Número de faixas: " + getNumFaixas());
 	}
 	
 	

@@ -1,31 +1,29 @@
 
-public class Produto implements InfoGerais{
+public class Produto implements InfoGerais {
 
-	public String Nome;
+	private String nome;
+	private double preco;
 
 	public String getNome() {
-		return Nome;
+		return nome;
 	}
 
 	public void setNome(String nome) {
-		Nome = nome;
+		this.nome = nome;
 	}
 
 	public double getPreco() {
-		return Preco;
+		return preco;
 	}
 
 	public void setPreco(double preco) {
-		Preco = preco;
+		this.preco = preco;
 	}
 
-	public double Preco;
-
-	
 	@Override
-	public void exibirInfo() {
+	public void exibirInformacoes() {
 		System.out.println("Nome: " + getNome());
-		System.out.println("Preço: R$ " + getPreco());
+		System.out.printf("Preço: R$ %.2f\n", getPreco());
 	}
-	
+
 }

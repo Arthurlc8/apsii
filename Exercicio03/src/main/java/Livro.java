@@ -1,27 +1,22 @@
 import java.util.Scanner;
 
-public class Livro extends Produto implements InfoGerais{
-	
-	private String Autor;
+public class Livro extends Produto implements InfoGerais {
 
-	private String getAutor() {
-		return Autor;
+	private String autor;
+
+	public String getAutor() {
+		return autor;
 	}
 
-	private void setAutor(String autor) {
-		Autor = autor;
+	public void setAutor(String autor) {
+		this.autor = autor;
 	}
 
 	@Override
-	public void exibirInfo() {
-		System.out.println("\nInformações do livro");
-		super.exibirInfo();
+	public void exibirInformacoes() {
+		System.out.println("\nInformações do livro\n");
+		super.exibirInformacoes();
 		System.out.println("Autor: " + getAutor());
 	}
-	
-	
-	
-	
+
 }
-
-

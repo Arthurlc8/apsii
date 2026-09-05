@@ -1,7 +1,6 @@
 
 public interface InfoGerais {
-	
-	void exibirInfo();
-	
-	
+
+	void exibirInformacoes();
+
 }
